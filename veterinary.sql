@@ -43,3 +43,15 @@ CREATE TABLE medicalrecords(
     FOREIGN KEY (animalid) REFERENCES animals(animalid),
     FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 );
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email) 
+VALUES  
+    (1, 'Juan', 'Dela Cruz', '123 Main St, Manila', '09171234567', 'juan.delacruz@email.com'),
+    (2, 'Maria', 'Santos', '456 Rizal St, Quezon City', '09179876543', 'maria.santos@email.com'),
+    (3, 'Pedro', 'Reyes', '789 Mabini St, Makati', '09171239876', 'pedro.reyes@email.com'),
+    (4, 'Ana', 'Lopez', '321 Bonifacio St, Manila', '09173456789', 'ana.lopez@email.com'),
+    (5, 'Luis', 'Gomez', '654 Quezon St, Taguig', '09177654321', 'luis.gomez@email.com'),
+    (6, 'Carmen', 'Torres', '987 Taft Ave, Manila', '09172345678', 'carmen.torres@email.com'),
+    (7, 'Ramon', 'Diaz', '246 Ayala Ave, Makati', '09171236789', 'ramon.diaz@email.com'),
+    (8, 'Isabel', 'Cruz', '135 EDSA, Quezon City', '09179871234', 'isabel.cruz@email.com'),
+    (9, 'Victor', 'Flores', '864 Katipunan, QC', '09171234512', 'victor.flores@email.com'),
+    (10, 'Luz', 'Morales', '753 España Blvd, Manila', '09179876512', 'luz.morales@email.com');
