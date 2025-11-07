@@ -67,18 +67,14 @@ VALUES
     (7, 'Simba', 'Cat', 'Domestic Shorthair', '2020-11-11', 'Male', 'Orange', 7),
     (8, 'Rocky', 'Dog', 'Beagle', '2016-08-08', 'Male', 'Fawn', 8),
     (9, 'Coco', 'Dog', 'Poodle', '2021-05-05', 'Female', 'Spotted', 9),
-    (10, 'Daisy', 'Dog', 'Labrador', '2018-07-07', 'Female', 'White', 10);
+    (10, 'Daisy', 'Dog', 'Labrador', '2018-07-07', 'Female', 'White', 10)
 
-    INSERT INTO appointments (appointid, animalid, appointdate, reason) 
-VALUES  
-    (1, 1, '2023-10-01', 'Vaccination'),
-    (2, 2, '2023-10-02', 'Check-up'),
-    (3, 3, '2023-10-03', 'Dental cleaning'),
-    (4, 4, '2023-10-04', 'Neutering'),
-    (5, 5, '2023-10-05', 'Skin allergy treatment'),
-    (6, 6, '2023-10-06', 'Vaccination'),
-    (7, 7, '2023-10-07', 'Check-up'),
-    (8, 8, '2023-10-08', 'Injury treatment'),
-    (9, 9, '2023-10-09', 'Dental cleaning'),
-    (10, 10, '2023-10-10', 'Annual check-up');
+INSERT INTO doctors(doctorid, dfirstname, dlastname, speciality,phone, email)
+VALUES
+    (1, 'Dr.Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
+    (2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
+    (3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'), 
+    (4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@xample.com'), 
+    (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'), 
+    (6, 'Dr. Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com');
 
